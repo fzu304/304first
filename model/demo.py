@@ -2,3 +2,4 @@
 '''
 @author: xuqiang
 '''
+import n
