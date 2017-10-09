@@ -3,5 +3,5 @@
 @author: xuqiang
 '''
 import n
-发生的发的说法
+发生的发的
 
