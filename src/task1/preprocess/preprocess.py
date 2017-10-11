@@ -41,7 +41,7 @@ print (userset)
 userNum=1  #用户个数
 total_dataNum=0 #所有记录数
 for user in userset:
-    print ("第%d个用户"%userNum)
+    print (("第%d个用户"%userNum+user))
     user_mat=[]
     data_count=0#每个用户消费记录条数
     for row in data_matrix:
