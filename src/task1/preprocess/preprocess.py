@@ -48,7 +48,7 @@ for user in userset:
         if str(row[1])== str(user):
             user_mat.append(row)
             data_count+=1
-    (pd.DataFrame(user_mat)).to_csv("G:/Git/304first/data/users/"+str(user)+".csv",index=False,header=False,encoding="UTF-8")
+    (pd.DataFrame(user_mat)).to_csv("G:/Git/304first/data/users/"+str(user)+".csv",index=False,header=False,encoding="UTF-8")#如果需要加上头，则删掉index和header参数
     print ("此用户有%d条消费记录"%data_count)
     total_dataNum+=data_count
     userNum+=1
